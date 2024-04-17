@@ -1,0 +1,92 @@
+:root {
+    --violet: #5536A2;
+}
+
+.app {
+    background-color: white;
+}
+
+/* banner */
+#banner {
+    background: var(--violet);
+    overflow: hidden;
+    height: 330px;
+}
+
+.banner {
+    width: 80%;
+    margin-left: 150px !important;
+}
+
+.banner h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-left: 150px;
+    margin-top: 120px;
+}
+
+/* main */
+.main {
+    width: 1280px;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.main__note {
+    background-color: #FDF6B2;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.main__note .fw-semibold {
+    margin-top: 5px;
+}
+
+.main__note h5 {
+    color: #8E4B10;
+}
+
+.main__note p {
+    font-size: 17px;
+    color: #8E4B10;
+    margin-bottom: 0;
+}
+
+.main__note p span {
+    font-weight: 500;
+}
+
+.span-violet {
+    color: #6941C6;
+}
+
+.method__name {
+    margin-top: 100px;
+}
+
+.method__name h2 {
+    font-size: 40px;
+}
+
+.method__name p {
+    font-size: 19px;
+}
+
+.method__detail p {
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.method__detail span {
+    font-weight: 500;
+}
+
+.method__detail ul {
+    list-style-type: circle;
+}
+
+.method__detail ul li {
+    list-style-type: circle;
+    font-size: 19px;
+    margin-bottom: 10px;
+}

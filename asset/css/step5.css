@@ -1,0 +1,97 @@
+:root {
+    --violet: #5536A2;
+    --bgText: #F4EBFF;
+    --text: #6941C6;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.app {
+    background-color: white;
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 50px !important;
+}
+
+.range {
+    width: 670px;
+    margin: auto;
+}
+
+.range p {
+    font-size: 13px;
+    padding: 10px;
+    background-color: #FFBDE7;
+    border-radius: 10px;
+}
+
+.intention {
+    width: 670px;
+    margin-top: 50px;
+}
+
+.method,
+.purpose {
+    position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    line-height: 1;
+    border: 0.5px solid #b3b8c3;
+}
+
+.method label,
+.purpose label {
+    z-index: 1;
+    pointer-events: none;
+    position: absolute;
+    top: calc(20% - 3px);
+    left: 10px;
+    transform: scale(.75);
+    font-size: 16px;
+    padding-right: 10px;
+    color: #8ea0b8;
+}
+
+.method .methodItemInput,
+.purpose .purposeItemInput {
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    opacity: 1;
+    text-overflow: ellipsis;
+    height: 60px;
+    border: 0.5px solid #a0a4ad;
+}
+
+/* button */
+.button {
+    margin-bottom: 100px !important;
+}
+
+.button button {
+    border: none;
+    background-color: #B582D9;
+    padding: 20px 30px 20px 30px;
+    border-radius: 40px;
+    margin-left: 30px;
+}
+
+.button button:nth-child(2) {
+    background-color: var(--text);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+.button button:hover {
+    background-color: #d1a9ed;
+}
+
+.button button:nth-child(2):hover {
+    background-color: indigo;
+}

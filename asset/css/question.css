@@ -1,0 +1,80 @@
+:root {
+    --violet: #5536A2;
+    --bgText: #F4EBFF;
+    --text: #6941C6;
+}
+
+.app {
+    background-color: white;
+}
+
+/* banner */
+#banner {
+    background: var(--violet);
+    overflow: hidden;
+    height: 330px;
+}
+
+.banner {
+    width: 80%;
+    margin-left: 150px !important;
+}
+
+.banner h1 {
+    font-size: 60px;
+    font-weight: 500;
+    width: 960px;
+    margin: 120px auto 0px;
+}
+
+.banner p {
+    color: #D6BBEC;
+}
+
+/* product */
+
+.product {
+    width: 80%;
+    margin: 100px auto;
+}
+
+.product__header {
+    display: inline-block;
+    background-color: var(--bgText);
+    color: var(--text);
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    height: 45px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.accordion-button span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.accordion-header button {
+    background-color: transparent !important;
+    border: none;
+}
+
+.accordion-button:focus {
+    border: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+}
+
+.accordion-body {
+    color: gray;
+    font-size: 16px;
+}
+
+.accordion-body a {
+    color: var(--text);
+    cursor: pointer;
+}

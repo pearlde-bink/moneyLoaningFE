@@ -1,0 +1,144 @@
+:root {
+    --violet: #5536A2;
+    --bgText: #F4EBFF;
+    --text: #6941C6;
+}
+
+.app {
+    background-color: white;
+}
+
+/* banner */
+#banner {
+    background: var(--violet);
+    overflow: hidden;
+    height: 330px;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner h1 {
+    font-size: 60px;
+    font-weight: 500;
+    width: 220px;
+    margin: 120px auto 0px;
+}
+
+/* news */
+.news {
+    margin-top: 50px;
+}
+
+.news__post {
+    margin-top: 50px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.news__title p {
+    color: var(--text);
+}
+
+.news__title h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.news__preview {
+    color: gray;
+}
+
+.sep {
+    width: 80%;
+    height: 1px;
+    margin: 50px auto;
+    background-color: rgb(230, 230, 230);
+}
+
+/* pagination */
+
+.page-link {
+    border: none !important;
+    color: var(--text) !important;
+    border-radius: 10px;
+}
+
+.pagination .active .page-link {
+    background-color: var(--bgText) !important;
+    color: var(--text) !important;
+}
+
+.page-link:hover {
+    background-color: var(--bgText) !important;
+}
+
+/* banner 2 */
+#banner2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 150px !important;
+}
+
+.banner2__img {
+    width: 95%;
+    height: 300px;
+    margin: 0 auto;
+    background: linear-gradient(to right bottom, var(--violet) 65%, rgb(137, 0, 195) 85%);
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+}
+
+.banner2__img-left {
+    margin-left: 30px;
+    white-space: pre-line;
+}
+
+.banner2__img-left h3 {
+    margin: 0;
+}
+
+.banner2__img-left p {
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.banner2__img-left>.loaning-intro_download {
+    margin-top: -30px;
+}
+
+.banner2__img-left>.loaning-intro_download>.loaning-intro_download-app>button {
+    margin-top: -10px;
+    background-color: transparent;
+    border: none;
+
+}
+
+.banner2__img-left>.loaning-intro_download>.loaning-intro_download-app {
+    margin-top: -40px;
+    margin-left: -10px;
+}
+
+.banner2__img-phone--img1,
+.banner2__img-phone--img2 {
+    position: absolute;
+}
+
+.banner2__img-phone--img1 {
+    left: 50%;
+    width: 260px;
+    height: 300px;
+}
+
+.banner2__img-phone--img2 {
+    height: 400px;
+    width: 245px;
+    left: 74%;
+    top: -33%;
+}
